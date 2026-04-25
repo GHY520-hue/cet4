@@ -19,5 +19,5 @@ export interface Stats {
   masteredWords: number;
   streak: number;
   lastStudyDate: Date | null;
-  dailyStudy: Record&lt;string, number&gt;;
+  dailyStudy: Record<string, number>;
 }
